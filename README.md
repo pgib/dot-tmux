@@ -11,3 +11,14 @@ cd ..
 ln -s .tmux/tmux.conf
 ```
 
+### Notes
+
+This is intended for use under macOS. Please ensure you have installed
+reattach-to-user-namespace.
+
+```
+brew install reattach-to-user-namespace
+```
+
+
+
