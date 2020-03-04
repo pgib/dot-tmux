@@ -8,7 +8,8 @@ git submodule init
 git submodule update
 cd ..
 [ -e ~/.tmux.conf ] && mv ~/.tmux.conf ~/.tmux.conf-orig
-ln -s .tmux/tmux.conf ~/.tmux.conf
+ln -s ~/.tmux/tmux.conf ~/.tmux.conf
+ln -s ~/.tmux/tmux-powerline/tmux-powerlinerc.conf ~/.tmux-powerlinerc
 ```
 
 ### Notes
